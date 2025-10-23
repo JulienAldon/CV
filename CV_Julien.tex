@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox}
+
+%\usepackage[francais]{babel}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins %0.75
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\hyphenation{}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Julien} % Your first name
+\familyname{Aldon} % Your last name
+
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+%\address{}{}
+%\phone{}
+%% \fax{}
+%\email{monica.panero@ens-lyon.fr}
+%\homepage{http://eductice.ens-lyon.fr/EducTice/equipe/membres/post\_doctorants/monica-panero}{http://eductice.ens-lyon.fr/EducTice/equipe/membres/post_doctorants/monica-panero} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%%\extrainfo{additional information}
+
+% \photo[70pt][0.4pt]{pictures/julien.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+% \hspace*{-1.5cm}
+\includegraphics[height=70pt]{pictures/julien.jpg}
+\hspace{12.8cm}
+\includegraphics[height=70pt]{pictures/qrcode_portfolio.png}
+
+\makecvtitle % Print the CV title
+
+\vspace*{-1.5cm}
+\begin{flushright}
+né le 6 octobre 1998 à Lyon, France\\
+courriel : julien.aldon@wanadoo.fr\\
+
+\end{flushright} %\\[-10cm]
+% \begin{center} Réponse à l'appel d'offre : "Aide à la conception et à la génération d'activités d'apprentissage ludiques adaptables".
+% \begin{center}Cherche un emploi dans les domaines du développement, de la programmation, du jeu vidéo ou de la pédagogie\end{center}
+\begin{center}Responsable Pédagogique Epitech\end{center}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace*{-0.2cm}
+\section{Situation actuelle}
+\cventry{}{Diplomé de l'école EPITECH}{2021}{}{}{}
+ %Au pair
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Expérience professionnelle}
+\cventry{Juillet 2017 – Dec. 2017}{Stage à Adecco IT Services}{Capacity management}{}{}{}
+\cventry{Sept. 2018 – Mars 2019}{Stage en alternance à la Code Academy}{Assistant pédagogique}{}{}{}
+\cventry{Mars. 2019 - Aout 2020}{Stage à Wecandoo}{Fullstack web}{}{}{}
+\cventry{Oct. 2020 - Mars 2021}{Stage à Stackeo}{Fullstack web}{}{}{}
+\cventry{Mars 2021 - Aout 2021}{Stage à Grame CNCM}{Recherche \& developpement INScore}{}{}{}
+\cventry{Aout 2021 - Octobre 2023}{Responsable pédagogique Epitech MSC}{Pédagogie}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\vspace*{-0.2cm}
+\section{Programmation}
+
+\cvitem{Langages maîtrisés}{C, C++, C\#, Python, JavaScript et Technologies associées (React, VueJS \dots), HTML5, CSS, \LaTeX, Php, Ruby, SQL, Unity, INScore}
+\cvitem{Languages en apprentissage}{Haskell, Rust, Faust, Guido, Zig}
+
+
+\vspace*{-0.2cm}
+\section{Projets}
+\cventry{}{Tous les projets sont diponibles dans mon port-folio}{}{\href{https://julienaldon.github.io/Port-Folio/}{Ici}}{Ou en Scanant le QRcode ci dessus}{}{}
+\cventry{2019-2020}{Escape the volcano}{Personel}{Jeu vidéo réalisé après l'avoir réalisé durant un cours de design de jeu en Russie}{\href{https://github.com/JulienAldon/EscapeTheVolcano}{Disponible ici}}{}{}
+\cventry{2018-2020}{JAMMEE}{Epitech}{Projet de fin d'études, il s'agit d'un logiciel de musique assistée par ordinateur dans un navigateur}{\href{https://jammee.io/}{Disponible ici}}{}{}
+\cventry{2018}{Publify}{Epitech}{Projet utilisant l'api Spotify permettant de synchroniser des playlists}{\href{https://github.com/JulienAldon/Publify}{Disponible ici}}{}{}
+% \cventry{2017}{Raytracer2}{Epitech}{Projet réalisé lors de ma première année à Epitech, ce projet a été réalisé en groupe}{\href{https://github.com/JulienAldon/Epitech\_Raytracer2}{Disponible ici}}{}{}
+
+\vspace*{-0.2cm}
+\section{Formation}
+\cventry{2021}{Diplomé Master 2}{Epitech}{Lyon}{}{}
+\cventry{2019-2020}{Année en Russie}{à l'université d'état de télécommunication}{St-Peterbourg}{}{}
+\cventry{2019}{Bachelor}{Epitech}{Lyon}{}{}{}
+% \cventry{2016}{Baccalauréat Scientifique S-SI, mention AB}{Lycée Brossolette, Villeurbanne} {}{}{}  % 
+
+% \cventry{2013 – 2016}{Seconde générale puis première S et terminale S, option SI, spécialité Informatique et Sciences du Numérique (ISN), option latin de la cinquième à la terminale} 
+% {}{}{}{} % 
+
+% \cventry{Sept. 2009 – Juin 2013}{Collège Fénelon, Lyon 6eme} 
+% {Classe européenne}{}{}{} % Arguments not required can be left empty
+
+ % 
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+\vspace*{-0.2cm}
+\section{Langues}
+
+\cvitemwithcomment{Français}{Langue maternelle}{}
+\cvitemwithcomment{Anglais}{Niveau C1}{Maîtrise de l'écrit et de l'oral, De juin à août 2016 je suis parti aux États Unis, en Pennsylvanie.}
+% \cvitemwithcomment{Allemand}{Niveau B1}{J'ai participé à plusieurs échanges scolaires avec l'Allemagne~: séjours à Hanovre et Berlin.}
+% \cvitemwithcomment{Russe}{Débutant}{Dans le cadre de mon année à l'étranger j'ai appris quelques rudiments de Russe.}
+% \cvitemwithcomment{Voyages}{}{J'ai organisé et effectué de nombreux voyages en Europe avec des groupes.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+%\vspace*{-0.2cm}
+%\section{Research Interests}
+%
+%\cvitem{}{Mathematics Education, teaching practices, formative assessment, technology.}
+
+%Main Fields
+
+
+%%----------------------------------------------------------------------------------------
+%%	PROFESSIONAL AND OTHER MEMBERSHIPS
+%%----------------------------------------------------------------------------------------
+%\vspace*{-0.2cm}
+%\section{Professional Memberships}
+%
+%\cvitem{}{Member of the Swiss Statistical Society (SSS), the International Biometric Society (IBS) and the American Statistical Association (ASA).}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+%\vspace*{-0.2cm}
+%\section{References}
+%
+%\cvitem{PhD Thesis Supervisor}{Prof. Reinhard Furrer, Institute of Mathematics, University of Zurich, Winterthurerstrasse 190,
+%CH--8057 Zurich. Tel.:  +41\, 44\,63\,55831, reinhard.furrer@math.uzh.ch, http://www.math.uzh.ch/furrer, http://www.math.uzh.ch/as.}
+%\cvitem{PhD Program Director}{Prof. Milo Puhan, Epidemiology, Biostatistics and Prevention Institute, University of Zurich, Hirschengraben 84, CH-8001 Zurich. Tel.:  +41\, 44\,63\,44610, miloalan.puhan@uzh.ch, www.ebpi.uzh.ch.}
+
+% \cvitem{Master thesis supervisor}{Prof. E. Venturino, Departiment of Mathematics, University of Torino, Via Carlo Alberto 10, IT--10123 Torino, Tel.: +39\, 11-\,67\,02833, ezio.venturino@unito.it.}
+% \cvitem{Master thesis supervisor}{Prof. M. Giacobini, Department of Animal Production, Epidemiology and Ecology, Faculty of Veterinary Medicine, University of Torino
+% via Leonardo da Vinci 44, IT-10095 Grugliasco (TO), Italy, Tel.: + 39\, 11-\,67\,09192, mario.giacobini@unito.it;
+% Computational Biology Unit, Molecular Biotechnology Center, University of Torino, via Nizza 52, IT-10126 Torino, Italy, Tel.: + 39\, 11-\,67\,06440.}
+% \cvitem{Advanced}{Computer Hardware and Support}
+
+ 
+ 
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+% \vspace*{-0.2cm}
+% \section{Centres d'intérêt}
+%  
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%  \cventry{2016}{Baccalauréat Scientifique S-SI, mention AB}{Lycée Brossolette, Villeurbanne} {}{}{}
+% \cventry{Musique}{J'ai fait sept années de violon au sein de l'École Nationale de Musique de Villeurbanne}{}{}{}{}
+% \cventry{}{Pendant cette période j'ai fait partie de l'orchestre de la promotion}{2nd violon}{}{}{}
+% \cventry{Sports}{Tennis : dans le club Rhône Sportif à Villeurbanne}{}{}{}{}
+% \cventry{}{Natation : 8 années au club ALAP à Villeurbanne}{compétitions régulières avec l'équipe du club}{}{}{}
+% \cventry{Dessin}{J'ai suivi pendant les trois années de lycée, l'option arts plastiques}{j'ai participé au projet de décoration de l'établissement avec des \oe uvres intégrées dans son architecture}{}{}{}
+% \cventry{}{Dans l'École de dessin de Villeurbanne, \textit{L'Atelier}, j'ai contribué à l'exposition de l'école par mes \oe uvres\textit{}}{}{}{}{}
+% % 
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+% 
+% \clearpage
+% 
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+% 
+% \makelettertitle % Print letter title
+% 
+% \lipsum[1-3] % Dummy text
+% 
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
