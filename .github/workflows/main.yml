@@ -8,5 +8,8 @@ jobs:
         uses: xu-cheng/latex-action@v4
         with:
           root_file: src/CV_Julien.tex
-          texlive_version: 2024
-          os: debian
+      - name: Upload Pdf
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: cv.pdf
