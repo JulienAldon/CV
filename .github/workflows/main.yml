@@ -1,5 +1,12 @@
-- uses: xu-cheng/latex-action@v4
-  with:
-    root_file: src/CV_Julien.tex
-    texlive_version: 2024
-    os: debian
+name: Build LaTeX document
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compile CV
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: src/CV_Julien.tex
+          texlive_version: 2024
+          os: debian
